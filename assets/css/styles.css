@@ -1,7 +1,10 @@
+/*all */
 body
 {
     background-color:#EEC170 ;
 }
+
+/*navbar*/
 .navbar {
     border-bottom: 2px solid #772F1A;
 }
@@ -33,11 +36,21 @@ body
     
     margin: 0 auto;
 }
-
+.nav-item a{
+    color: #772F1A!important;
+}
+.nav-item a:hover{
+    color: #fff!important;
+}
+.nav-item:hover{
+    background-color: #F2A65A;
+    border-radius: 10px;
+}
+/* carousel */
 #carousel-promo{
     display: block;
     margin: 20px  auto;
-    width: 900px;
+    width: 100%;
     height: 630px;
     border:10px solid #fff    
 }
@@ -53,11 +66,69 @@ body
     color: #F58549;
     letter-spacing: 2px;
 }
-.visually-hidden{
-    color: aqua;
+.carousel-indicators{
+    transform: translateX(-15%);
 }
 .carousel-control-next, .carousel-control-prev{
     color: 0 1;
     background-color: #fff;
     
+}
+/* section wrapper */
+#wrapper{
+    margin: 50px auto;
+}
+#step-1 {
+    background: url(/assets/img/icone-d-entreprise-noir.png)
+      no-repeat top center;
+    background-size: 90px;
+
+  }
+  
+  #step-2 {
+    background: url(/assets/img/qualité.png) no-repeat top center;
+    background-size: 90px;
+  }
+  #step-3 {
+    background: url(/assets/img/devis.png) no-repeat top center;
+    background-size: 90px;
+  }
+#step-1 h3{
+    padding-top: 110px;
+    letter-spacing: 1px;
+    color: #772F1A;
+    font-weight: bold;
+    text-decoration: underline #585123;
+}
+#step-2 h3{
+    padding-top: 110px;
+    letter-spacing: 1px;
+    color: #772F1A;
+    font-weight: bold;
+    text-decoration: underline #585123;
+}
+#step-3 h3{
+    padding-top: 110px;
+    letter-spacing: 1px;
+    color: #772F1A;
+    font-weight: bold;
+    text-decoration: underline #585123;
+}
+/*footer*/
+.footer-nav
+{
+    text-align: center;
+}
+.footer-nav a{
+margin:10px;
+text-decoration: none;
+color: #772F1A;
+}
+
+#wrapper-2,h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #585123;
+    text-decoration: underline;
+    padding-bottom: 10px;
 }
