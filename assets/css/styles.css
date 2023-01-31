@@ -132,3 +132,43 @@ color: #772F1A;
     text-decoration: underline;
     padding-bottom: 10px;
 }
+#table{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+.table th,td {
+    border: solid 4px #772F1A;
+    background-color: #f4f4f4;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  #center-1{
+    padding-top:125px !important;
+  }
+  #center-2{
+    padding-top: 50px!important;
+  }
+  .tableau body {
+    display: flex;
+    align-items: center;
+  }
+  
+  tbody td{
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background: #fff;
+  }
+  tbody tr:nth-child(even) {
+    background: #f4f4f4;
+  }
+  table,
+  td {
+    border: 1px solid #772F1A;
+    color: #772F1A;
+  }
