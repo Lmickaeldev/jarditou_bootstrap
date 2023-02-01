@@ -2,8 +2,13 @@
 body
 {
     background-color:#EEC170 ;
+    margin: 70px 0;
 }
-
+hr{
+  width: 200px;
+  margin: 0 auto;
+  color: #585123;
+}
 /*navbar*/
 .navbar {
     border-bottom: 2px solid #772F1A;
@@ -172,3 +177,83 @@ color: #772F1A;
     border: 1px solid #772F1A;
     color: #772F1A;
   }
+  /*contact*/
+.heading h2 {
+  color: #585123;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0;
+  text-decoration: underline #F58549;
+}
+#contact-form{
+  margin-top: 30px;
+  font-size: 20px;
+  background: #772F1A;
+  padding: 40px ;
+  border-radius: 12px;
+}
+.col-lg-10{
+  width: 100%;
+}
+.form-control{
+  margin: 10px 0;
+}
+.coordonée{
+  background:#EEC170;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.demande{
+  margin-top: 10px;
+  padding: 10px;
+  background: #EEC170;
+  border-radius: 12px;
+}
+legend{
+  text-align: center;
+  margin: 8px auto 10px;
+  font-weight: bold;
+  color: #585123;
+  text-decoration: underline 3px #F58549;
+}
+label{
+  color: #772F1A;
+}
+.red{
+  color: red;
+}
+.comments{
+  font-style: italic;
+  color: red;
+  font-size: 18px;
+  height: 25px;
+
+}
+.requis
+{
+  color: #585123;
+  text-decoration: underline #772F1A;
+  font-weight: bold;
+}
+.button-1{
+  width: 100%;
+  background:#EEC170;
+  border-radius: 8px;
+  border-color: #772F1A;
+  color: #772F1A;
+  margin-bottom: 5px;
+}
+.button-2{
+  width: 100%;
+  background:#EEC170;
+  border-radius: 8px;
+  border-color: #772F1A;
+  color: #772F1A;
+}
+.button-1:hover,.button-2:hover {
+  background-color: #772F1A;
+  color: #EEC170;
+}
